@@ -1,2 +1,2 @@
 # My-Files
-All my individual projects
+All my individual projects (school or personal)
