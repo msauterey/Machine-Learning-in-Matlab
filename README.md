@@ -8,6 +8,8 @@ Materials cover the following topics:
 
 - Linear Regression (with one or multiple variables)
 
+- Logistic Regression
+
 ## Acknowledgments
 
 Running codes and pictures are the product of my own work. Data provided and some function codes are the property of Dr. Andrew Ng and Coursera - Please see https://www.coursera.org/learn/machine-learning/home/welcome for more information.
