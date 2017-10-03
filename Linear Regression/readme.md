@@ -4,4 +4,6 @@ Implementation of linear regression with one variable to predict profits for a f
 
 ## Simple Linear Regression model
 
-$\beta$
+h       
+  beta  
+
