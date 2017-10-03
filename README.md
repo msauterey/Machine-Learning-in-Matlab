@@ -6,4 +6,4 @@ Please review the readme file of each section listed below for an illustrated ov
 
 Materials cover the following topics:
 
-- Linear Regression with one or multiple variable
+- Linear Regression (with one or multiple variables)
