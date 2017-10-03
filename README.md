@@ -10,4 +10,4 @@ Materials cover the following topics:
 
 ## Acknowledgments
 
-Running codes and pictures are the product of mine own work. Data provided and some function codes are the property of Dr. Andrew Ng and Coursera - Please see https://www.coursera.org/learn/machine-learning/home/welcome for more information.
+Running codes and pictures are the product of my own work. Data provided and some function codes are the property of Dr. Andrew Ng and Coursera - Please see https://www.coursera.org/learn/machine-learning/home/welcome for more information.
