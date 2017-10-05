@@ -10,6 +10,8 @@ Materials cover the following topics:
 
 - Logistic Regression
 
+- Multi-class Classification and Neural Networks (working on it)
+
 ## Acknowledgments
 
 Running codes and pictures are the product of my own work. Data provided and some function codes are the property of Dr. Andrew Ng and Coursera - Please see https://www.coursera.org/learn/machine-learning/home/welcome for more information.
