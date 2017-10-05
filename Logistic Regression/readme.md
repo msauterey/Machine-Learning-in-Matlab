@@ -12,7 +12,7 @@ The cost function in logistic regression is
 
 where the logistic regression hypothesis h(x) is given by
 
-![linearlogisticreg](https://user-images.githubusercontent.com/29837880/31242093-f344657e-a9d3-11e7-8462-ef567d836f6b.png)
+![logisticreg](https://user-images.githubusercontent.com/29837880/31242086-f33b0862-a9d3-11e7-9ca3-5bf2f4303c4e.PNG)
 
 with g(z) the sigmoid function below
 
@@ -20,7 +20,11 @@ with g(z) the sigmoid function below
 
 Unlike for the Linear Regression, instead of using the gradient descent algorythm we are going to use a Matlab built-in optimization solver named "fminunc" to find the best parameters thetas.
 
-![logisticreg](https://user-images.githubusercontent.com/29837880/31242086-f33b0862-a9d3-11e7-9ca3-5bf2f4303c4e.PNG)  
+After learning the best parameters thetas, we plot the data logistic regression line.
+
+![linearlogisticreg](https://user-images.githubusercontent.com/29837880/31242093-f344657e-a9d3-11e7-8462-ef567d836f6b.png)
+
+The accuracy of the model is 89%.
 
 ## Regularized Logistic Regression
 
