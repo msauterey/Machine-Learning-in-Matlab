@@ -52,6 +52,7 @@ The regularization parameters used was lambda = 0.01 and it proved to correctly 
 Out of curiosity let's now set lambda = 100 in order for the decision line to underfit the data. 
 
 ![nonlinearlogisticregunder](https://user-images.githubusercontent.com/29837880/31242091-f3426a94-a9d3-11e7-85cd-1dd5a077a588.png)
+
 By setting such a large lambda, we are giving less weight to the unregularized cost function to be minimized. Thus our model is more biased and less accurate.
 
 Now let's set lambda = 0 in order for the decision line to overfit the data.
