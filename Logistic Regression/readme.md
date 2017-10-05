@@ -31,13 +31,27 @@ The accuracy of the model is 89%.
 
 Implementation of regularized logistic regression to predict if microchips from a manufactory pass quality tests. 
 
+A first plot of the data alone (not included here for conciseness) showed that a linear logistic line would only do so poorly at separating defective chips from those properly functionning. Therefore we need to create new features (more than 2) in order to better fit the data.
+
+To do so we map the two features into all polynomials of degree six and thus obtain a total of 28 features.
+
+![mapfeature](https://user-images.githubusercontent.com/29837880/31242085-f33a4bde-a9d3-11e7-838e-0c65048ee73e.PNG)
+
 The cost function of the regularized logistic regression is given by
 
 ![jcostfunctlogisticregressregul](https://user-images.githubusercontent.com/29837880/31242094-f362b538-a9d3-11e7-9d44-696b79c73903.PNG)
 
+We then plot the data and decision boundary:
 
-![mapfeature](https://user-images.githubusercontent.com/29837880/31242085-f33a4bde-a9d3-11e7-838e-0c65048ee73e.PNG)
 ![nonlinearlogisticreg](https://user-images.githubusercontent.com/29837880/31242087-f33b53d0-a9d3-11e7-9d85-c5b9d41e6468.png)
-![nonlinearlogisticregover](https://user-images.githubusercontent.com/29837880/31242089-f33e73e4-a9d3-11e7-993d-e49961490e2b.png)
+The regularization parameters used was lambda = 0.01 and it proved to correctly balace bias and variance in the model.
+
+Out of curiosity let's now set lambda = 100 in order for the decision line to underfit the data. 
+
+By setting such a large lambda, we are giving less weight to the unregularized cost function to be minimized. Thus our model is more biased and less accurate.
+
 ![nonlinearlogisticregunder](https://user-images.githubusercontent.com/29837880/31242091-f3426a94-a9d3-11e7-85cd-1dd5a077a588.png)
 
+Now let's set lambda = 0 in order for the decision line to overfit the data. By setting such a small -null- lambda, we are giving all the weight to the unregularized cost function to be minimized. Thus our model fits the training data too well and has such a large variance that it will make poor predictions on new data.
+
+![nonlinearlogisticregover](https://user-images.githubusercontent.com/29837880/31242089-f33e73e4-a9d3-11e7-993d-e49961490e2b.png)
