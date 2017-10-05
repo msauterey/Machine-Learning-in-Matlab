@@ -44,14 +44,18 @@ The cost function of the regularized logistic regression is given by
 We then plot the data and decision boundary:
 
 ![nonlinearlogisticreg](https://user-images.githubusercontent.com/29837880/31242087-f33b53d0-a9d3-11e7-9d85-c5b9d41e6468.png)
+
 The regularization parameters used was lambda = 0.01 and it proved to correctly balace bias and variance in the model.
+
+### Variance vs Bias
 
 Out of curiosity let's now set lambda = 100 in order for the decision line to underfit the data. 
 
+![nonlinearlogisticregunder](https://user-images.githubusercontent.com/29837880/31242091-f3426a94-a9d3-11e7-85cd-1dd5a077a588.png)
 By setting such a large lambda, we are giving less weight to the unregularized cost function to be minimized. Thus our model is more biased and less accurate.
 
-![nonlinearlogisticregunder](https://user-images.githubusercontent.com/29837880/31242091-f3426a94-a9d3-11e7-85cd-1dd5a077a588.png)
-
-Now let's set lambda = 0 in order for the decision line to overfit the data. By setting such a small -null- lambda, we are giving all the weight to the unregularized cost function to be minimized. Thus our model fits the training data too well and has such a large variance that it will make poor predictions on new data.
+Now let's set lambda = 0 in order for the decision line to overfit the data.
 
 ![nonlinearlogisticregover](https://user-images.githubusercontent.com/29837880/31242089-f33e73e4-a9d3-11e7-993d-e49961490e2b.png)
+
+By setting such a small -null- lambda, we are giving all the weight to the unregularized cost function to be minimized. Thus our model fits the training data too well and has such a large variance that it will make poor predictions on new data.
