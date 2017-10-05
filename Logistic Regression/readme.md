@@ -4,7 +4,7 @@ Logistic regression is a method for classifying data into discrete outcomes.
 
 ## Unregularized Logistic Regression
 
-Implementation of logistic regression to predict whether a student gets admitted into a university.
+Implementation of logistic regression to predict whether a student gets admitted into a university using two parameters, score at test 1 and score at test 2.
 
 The cost function in logistic regression is
 
@@ -26,7 +26,14 @@ After learning the best parameters thetas, we plot the data logistic regression 
 
 The accuracy of the model is 89%.
 
+
 ## Regularized Logistic Regression
+
+Implementation of regularized logistic regression to predict if microchips from a manufactory pass quality tests. 
+
+The cost function of the regularized logistic regression is given by
+
+![jcostfunctlogisticregressregul](https://user-images.githubusercontent.com/29837880/31242094-f362b538-a9d3-11e7-9d44-696b79c73903.PNG)
 
 
 ![mapfeature](https://user-images.githubusercontent.com/29837880/31242085-f33a4bde-a9d3-11e7-838e-0c65048ee73e.PNG)
@@ -34,5 +41,3 @@ The accuracy of the model is 89%.
 ![nonlinearlogisticregover](https://user-images.githubusercontent.com/29837880/31242089-f33e73e4-a9d3-11e7-993d-e49961490e2b.png)
 ![nonlinearlogisticregunder](https://user-images.githubusercontent.com/29837880/31242091-f3426a94-a9d3-11e7-85cd-1dd5a077a588.png)
 
-
-![jcostfunctlogisticregressregul](https://user-images.githubusercontent.com/29837880/31242094-f362b538-a9d3-11e7-9d44-696b79c73903.PNG)
